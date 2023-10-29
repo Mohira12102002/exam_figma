@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exam_figma</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <div class="container">
+        <img src="./img/LogoImg.svg" alt="Logo" class="logo_img" />
+        <img src="./img/burger.svg" alt="img" class="burger" />
+        <div class="for_burger">
+          <div class="containerBurger">
+            <div class="nav">
+              <img
+                src="./img/burgerlogo.svg"
+                alt="Logo"
+                class="logo_burger"
+              />
+              <h3>&times;</h3>
+            </div>
+            <a href="#features">FEATURES</a>
+            <a href="#downloud">PRICING</a>
+            <a href="#contact_us">CONTACT</a>
+            <a class="btn" href="#0">LOGIN</a>
+          </div>
+        </div>
+        <ul>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#downloud">PRICING</a></li>
+          <li><a href="#contact_us">CONTACT</a></li>
+          <li><a class="btn btn_red" href="#0">LOGIN</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="uuu">
+      <div class="container">
+        <div class="main_text">
+          <h1>A Simple Bookmark Manager</h1>
+          <p>
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it
+            for free.
+          </p>
+          <div class="main_btn">
+            <a href="#chrome" class="btn btn_blue">Get it on Chrome</a>
+            <a href="#firefox" class="btn btn_black">Get it on Firefox</a>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./img/./mainImg.png" alt="img" />
+          <div class="bg_main"></div>
+        </div>
+      </div>
+    </main>
+  </header>
+  <!-- Features -->
+  <section class="features uuu" id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <p>
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+      <div class="part_features">
+        <h4 class="menu h4_Features_active" data-num="0">
+          Simple Bookmarking
+        </h4>
+        <h4 class="menu" data-num="1">Speedy Searching</h4>
+        <h4 class="menu" data-num="2">Easy Sharing</h4>
+      </div>
+      <div class="bg"></div>
+      <div class="slides">
+        <div class="slide slide__1" data-num="0">
+          <img src="./img/slide1.png" alt="img" />
+          <div class="text">
+            <h2>Bookmark in one click</h2>
+            <p>
+              Organize your bookmarks however you like. Our simple
+              drag-and-drop interface gives you complete control over how you
+              manage your favourite sites.
+            </p>
+            <a href="#0" class="btn btn_blue">More Info</a>
+          </div>
+        </div>
+        <div class="slide slide__2" data-num="1">
+          <img src="./img/slide_2.png" alt="img" />
+          <div class="text">
+            <h2>Intelligent search</h2>
+            <p>
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <a href="#0" class="btn btn_blue">More Info</a>
+          </div>
+        </div>
+        <div class="slide slide__3" data-num="2">
+          <img src="./img/slide__3.png" alt="img" />
+          <div class="text">
+            <h2>Share your bookmarks</h2>
+            <p>
+              Easily share your bookmarks and collections with others. Create
+              a shareable link that you can send at the click of a button.
+            </p>
+            <a href="#0" class="btn btn_blue">More Info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- downloud -->
+  <section class="downloud" id="downloud">
+    <div class="container">
+      <h2>Download the extension</h2>
+      <p>
+        We’ve got more browsers in the pipeline. Please do let us know if
+        you’ve got a favourite you’d like us to prioritize.
+      </p>
+      <div class="cards">
+        <div id="chrome" class="card chrome_card">
+          <img src="./img/chrome 2.png" alt="Chrome" />
+          <h3>Add to Chrome</h3>
+          <p>Minimum version 62</p>
+          <img src="./img/Combined Shape.svg" class="img" alt="svg" />
+          <a href="#0" class="btn btn_blue">Add & Install Extension</a>
+        </div>
+        <div id="firefox" class="card firefox_card">
+          <img src="./img/firefox.png" alt="firefox" />
+          <h3>Add to Firefox</h3>
+          <p>Minimum version 55</p>
+          <img src="./img/Combined Shape.svg" class="img" alt="svg" />
+          <a href="#0" class="btn btn_blue">Add & Install Extension</a>
+        </div>
+        <div class="card opera_card">
+          <img src="./img/opera 2.png" alt="firefox" />
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <img src="./img/Combined Shape.svg" class="img" alt="svg" />
+          <a href="#0" class="btn btn_blue">Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ -->
+  <section class="faq uuu" id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <p>
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.
+      </p>
+      <div class="accardion">
+        <div class="acc">
+          <div>
+            <h4>What is Bookmark?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="13"
+              viewBox="0 0 20 13"
+              fill="none"
+            >
+              <path d="M2 2L10 10L18 2" stroke-width="3" />
+            </svg>
+          </div>
+          <p>
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+            eros aliquet convallis ultricies. Mauris augue massa, ultricies
+            non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+            convallis ultricies. Mauris augue massa, ultricies non ligula.
+            Suspendisse imperdiet.
+          </p>
+        </div>
+        <div class="acc">
+          <div>
+            <h4>How can I request a new browser?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="13"
+              viewBox="0 0 20 13"
+              fill="none"
+            >
+              <path d="M2 2L10 10L18 2" stroke-width="3" />
+            </svg>
+          </div>
+          <p>
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+            eros aliquet convallis ultricies. Mauris augue massa, ultricies
+            non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+            convallis ultricies. Mauris augue massa, ultricies non ligula.
+            Suspendisse imperdiet.
+          </p>
+        </div>
+        <div class="acc">
+          <div>
+            <h4>Is there a mobile app?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="13"
+              viewBox="0 0 20 13"
+              fill="none"
+            >
+              <path d="M2 2L10 10L18 2" stroke-width="3" />
+            </svg>
+          </div>
+          <p>
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+            eros aliquet convallis ultricies. Mauris augue massa, ultricies
+            non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+            convallis ultricies. Mauris augue massa, ultricies non ligula.
+            Suspendisse imperdiet.
+          </p>
+        </div>
+        <div class="acc">
+          <div>
+            <h4>What about other Chromium browsers?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="13"
+              viewBox="0 0 20 13"
+              fill="none"
+            >
+              <path d="M2 2L10 10L18 2" stroke-width="3" />
+            </svg>
+          </div>
+          <p>
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+            massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus
+            eros aliquet convallis ultricies. Mauris augue massa, ultricies
+            non ligula. Suspendisse imperdie tVivamus luctus eros aliquet
+            convallis ultricies. Mauris augue massa, ultricies non ligula.
+            Suspendisse imperdiet.
+          </p>
+        </div>
+      </div>
+      <a href="#0" class="btn btn_blue">More Info</a>
+    </div>
+  </section>
+
+  <!-- contact_us -->
+  <section class="contact_us uuu" id="contact_us">
+    <div class="container">
+      <p>35,000+ ALREADY JOINED</p>
+      <h2>Stay up-to-date with what we’re doing</h2>
+      <div class="input">
+        <input type="email" placeholder="Enter your email address" />
+        <div class="drop hidden">!</div>
+        <div class="dropT hidden">:)</div>
+        <div class="error hidden">
+          <p>Whoops, make sure it’s an email</p>
+        </div>
+        <button class="btn btn_red">Contact Us</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="uuu">
+    <div class="container">
+      <ul>
+        <li><img src="./img/logo bottom.svg" alt="img" /></li>
+        <li><a href="#features">FEATURES</a></li>
+        <li><a href="#downloud">PRICING</a></li>
+        <li><a href="#contact_us">CONTACT</a></li>
+      </ul>
+      <div class="social">
+        <a href="#0"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="3.8rem"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+            /></svg>
+        ></a>
+        <a href="#0"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="3.8rem"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+            /></svg>
+        ></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js -->
+  <script src="./index.js"></script>
+</body>
+</html>
