@@ -1,14 +1,11 @@
-// font
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@font-face {
-  font-family: "Rubik", sans-serif;
-  src: url("../fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf");
-  src: url("../fonts/Rubik/Rubik-VariableFont_wght.ttf");
-}
+
+@import url('https://fonts.googleapis.com/css2? family= Rubik:wght@400;500 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 
 
-// defult
+
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +54,7 @@ footer {
   color: #fff;
   &:hover {
     border: 2px solid #fa5959;
-    color: #fa5959 !important;
+    color: #fa5959 ;
   }
 }
 .btn_blue {
@@ -112,8 +109,8 @@ ul {
   }
 }
 
-// basicly side styles
-// navbar
+
+
 nav {
   margin-top: 5rem;
   .container {
@@ -124,7 +121,7 @@ nav {
     margin: 0 4.8rem;
   }
 }
-// main
+
 main {
   margin-top: 3rem;
   .container {
@@ -166,7 +163,7 @@ main {
   }
 }
 
-// Features
+
 section.features {
   .container {
     margin-top: 8rem;
@@ -245,7 +242,7 @@ section.features {
     }
   }
 }
-// downloud
+
 section.downloud {
   .container {
     margin-bottom: 10rem;
@@ -305,7 +302,7 @@ section.downloud {
     }
   }
 }
-// FAQ
+
 section.faq {
   .container {
     display: flex;
@@ -361,7 +358,7 @@ section.faq {
     }
   }
 }
-// contact_us
+
 section.contact_us {
   margin-top: 15rem;
   background-color: #5267df;
@@ -436,11 +433,11 @@ footer {
     }
   }
 }
-// class for js
+
 .section__hidden {
   .container{
-    opacity: 0 !important;
-    transform: translateX(8rem) !important;
+    opacity: 0 ;
+    transform: translateX(8rem) ;
   }
 }
 .burger {
@@ -450,17 +447,17 @@ footer {
   display: none;
 }
 .h4_Features_active {
-  border-bottom: 2px solid #fa5959 !important;
+  border-bottom: 2px solid #fa5959 ;
 }
 .hidden {
-  display: none !important;
+  display: none ;
 }
 .acc_active {
-  height: auto !important;
-  height: 28rem !important;
+  height: auto ;
+  height: 28rem ;
   svg {
-    transform: rotate(180deg) !important;
-    stroke: #fa5959 !important;
+    transform: rotate(180deg) ;
+    stroke: #fa5959 ;
   }
 }
 .drop {
@@ -506,17 +503,17 @@ footer {
   border-radius: 0.5rem;
   padding: 1rem;
   p {
-    all: unset !important;
-    color: #fff !important;
-    width: 100% !important;
-    font-size: 1rem !important;
-    font-style: italic !important;
-    font-weight: 500 !important;
-    letter-spacing: 0.025rem !important;
+    all: unset ;
+    color: #fff ;
+    width: 100% ;
+    font-size: 1rem ;
+    font-style: italic ;
+    font-weight: 500 t;
+    letter-spacing: 0.025rem ;
   }
 }
 
-// responsivlik
+
 @media (max-width: 1110px) {
   html {
     font-size: 55%;
@@ -633,7 +630,7 @@ footer {
             font-weight: 500;
             line-height: 1.7rem;
             letter-spacing: 0.2308rem;
-            padding: 1.2rem 0.11% !important;
+            padding: 1.2rem 0.11% ;
             text-align: center;
             border: 2px solid #f7f7f7;
           }
@@ -647,8 +644,8 @@ footer {
   section.features .container {
     zoom: 1;
     .bg {
-      left: -638% !important;
-      top: 60.3rem !important;
+      left: -638% ;
+      top: 60.3rem ;
     }
     .part_features {
       flex-direction: column;
@@ -705,9 +702,9 @@ footer {
       }
     }
   }
-  // for js
+  
   .show_burger {
-    transform: translateX(0) !important;
+    transform: translateX(0) ;
   }
 }
 @media (max-width: 520px) {
